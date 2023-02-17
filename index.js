@@ -23,7 +23,7 @@ console.log(resultado);*/
 
 async function conPromesa(){
     const resultado = await Promise.resolve(1)
-    console.log(resultado + 1 + 1);
+    console.log(resultado + 1 + 2);
 }
 
 conPromesa()
